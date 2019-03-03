@@ -1,13 +1,14 @@
 {
-  "short_name": "React App",
+  "short_name": "Anxiety Extension",
   "name": "Anxiety Extension",
   "browser_action": {
     "default_popup": "index.html",
-    "default_title": "React Ext"
+    "default_title": "Welcome"
   },
-  "version": 1.0,
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "version": "1",
+
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "manifest_version": 2
 }

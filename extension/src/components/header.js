@@ -40,7 +40,7 @@ export default class Header extends React.Component {
       'color': '#040217',
       'letterSpacing': 0,
       'textAlign': 'center',
-      'margin': '10px'
+      'margin': '5px'
     };
 
     let text = "You're awesome, Shreya!"
